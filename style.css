@@ -1,4 +1,13 @@
-.text-main-page p {
+.text-main-page {
     text-align: center;
-    text-decoration: aqua;
 }
+
+#main-heading {
+    margin: 5px;
+}
+
+#cat {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
