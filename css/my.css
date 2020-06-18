@@ -1,0 +1,27 @@
+/* line 1, ../ME50W/project0/scss/my.scss */
+.contact > div {
+  font-family: sans-serif;
+  font-weight: bold;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  border: 1px solid black;
+}
+
+/* line 15, ../ME50W/project0/scss/my.scss */
+.contact > div #github span {
+  background-color: black;
+}
+
+/* line 19, ../ME50W/project0/scss/my.scss */
+.contact > div #instagram span {
+  background-color: pink;
+  text-decoration-color: red;
+}
+
+/* line 24, ../ME50W/project0/scss/my.scss */
+.contact > div #reddit span {
+  background-color: red;
+}
+
+/*# sourceMappingURL=my.css.map */

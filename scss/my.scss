@@ -1,0 +1,28 @@
+%contact-bar {
+    font-family: sans-serif;
+    font-weight: bold;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.contact > div{
+    @extend %contact-bar;
+    
+
+
+    #github span{
+        background-color: black;
+    }
+
+    #instagram span{
+        background-color: pink;
+        text-decoration-color: red;
+    }
+
+    #reddit span{
+        background-color: red;
+    }
+    
+}

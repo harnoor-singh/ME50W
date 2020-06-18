@@ -1,0 +1,32 @@
+/*  <CSS of index.html>  */
+.text-main-page {
+    text-align: center;
+}
+
+#main-heading {
+    margin: 5px;
+}
+
+#cat {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+/*  </CSS of index.html>  */
+
+
+h1, h2, .comic {
+    font-family: 'Comic Sans MS';
+}
+
+.container-1 {
+    margin: 10px;
+    border: 2px solid black;
+}
+
+@media only screen and (max-width: 576px) {
+    body {
+      background-color: lightblue;
+    }
+  }
