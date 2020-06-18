@@ -1,3 +1,6 @@
+$github-color: #211F1F;
+$insta-color: #E1306C;
+
 %contact-bar {
     font-family: sans-serif;
     font-weight: bold;
@@ -7,22 +10,41 @@
     border: 1px solid black;
 }
 
-.contact > div{
+body a div {
+    color: white;
+}
+
+.github {
     @extend %contact-bar;
+    background-color: $github-color;
+}
+
+.instagram {
+    @extend %contact-bar;
+    background-color: $insta-color;
+}
+
+.reddit {
+    @extend %contact-bar;
+    background-color: red;
+}
     
 
 
-    #github span{
-        background-color: black;
+table{
+    border: 2px solid black;
+    text-align: center;
+    margin-left: 1em;
+
+    th {
+        border: 2px solid black;
+        font-size: 24px;
+        padding: 5px;
     }
 
-    #instagram span{
-        background-color: pink;
-        text-decoration-color: red;
+    td {
+        border: 2px solid black;
+        font-size: 16px;
+        padding: 5px;
     }
-
-    #reddit span{
-        background-color: red;
-    }
-    
 }

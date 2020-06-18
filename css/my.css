@@ -1,5 +1,5 @@
-/* line 1, ../ME50W/project0/scss/my.scss */
-.contact > div {
+/* line 4, ../ME50W/project0/scss/my.scss */
+.github, .instagram, .reddit {
   font-family: sans-serif;
   font-weight: bold;
   padding: 10px;
@@ -8,20 +8,45 @@
   border: 1px solid black;
 }
 
-/* line 15, ../ME50W/project0/scss/my.scss */
-.contact > div #github span {
-  background-color: black;
+/* line 13, ../ME50W/project0/scss/my.scss */
+body a div {
+  color: white;
 }
 
-/* line 19, ../ME50W/project0/scss/my.scss */
-.contact > div #instagram span {
-  background-color: pink;
-  text-decoration-color: red;
+/* line 17, ../ME50W/project0/scss/my.scss */
+.github {
+  background-color: #211F1F;
 }
 
-/* line 24, ../ME50W/project0/scss/my.scss */
-.contact > div #reddit span {
+/* line 22, ../ME50W/project0/scss/my.scss */
+.instagram {
+  background-color: #E1306C;
+}
+
+/* line 27, ../ME50W/project0/scss/my.scss */
+.reddit {
   background-color: red;
+}
+
+/* line 34, ../ME50W/project0/scss/my.scss */
+table {
+  border: 2px solid black;
+  text-align: center;
+  margin-left: 1em;
+}
+
+/* line 39, ../ME50W/project0/scss/my.scss */
+table th {
+  border: 2px solid black;
+  font-size: 24px;
+  padding: 5px;
+}
+
+/* line 45, ../ME50W/project0/scss/my.scss */
+table td {
+  border: 2px solid black;
+  font-size: 16px;
+  padding: 5px;
 }
 
 /*# sourceMappingURL=my.css.map */

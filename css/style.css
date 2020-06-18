@@ -12,21 +12,32 @@
     margin-left: auto;
     margin-right: auto;
   }
-
 /*  </CSS of index.html>  */
 
 
 h1, h2, .comic {
-    font-family: 'Comic Sans MS';
+  font-family: 'Comic Sans MS';
 }
 
-.container-1 {
-    margin: 10px;
-    border: 2px solid black;
+#interests-list {
+  font-size: 18px;
 }
 
 @media only screen and (max-width: 576px) {
-    body {
-      background-color: lightblue;
-    }
+  body {
+    background-color: lightblue;
   }
+}
+
+ 
+.box{
+  padding: 10px;
+  text-align: center;
+  font-size: 18px;
+  color: white;
+  background-color: #343a40;
+}
+
+.comic{
+  font-size: 24px;
+}
